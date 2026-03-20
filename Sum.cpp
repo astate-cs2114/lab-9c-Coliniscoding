@@ -6,10 +6,11 @@ int sum(int a, int b){
     }
 
 int main() {
-   
+    int a ;
+    int b ;
     cout << "Enter two integers" << endl;
     cin >> a ;
     cin >> b ;
-    cout << "The sum is: " << sum << endl;
+    cout << "The sum is: " << sum(a, b) << endl;
     
 }
